@@ -1,0 +1,145 @@
+a:12:{s:7:"version";s:3:"2.4";s:7:"methods";a:5:{i:0;O:13:"PhpWsdlMethod":9:{s:5:"Param";a:1:{i:0;O:12:"PhpWsdlParam":5:{s:4:"Type";s:6:"string";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7f916";s:4:"Name";s:10:"session_id";s:8:"Settings";N;}}s:6:"Return";O:12:"PhpWsdlParam":5:{s:4:"Type";s:7:"boolean";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7f947";s:4:"Name";s:6:"return";s:8:"Settings";N;}s:8:"IsGlobal";b:0;s:5:"Class";N;s:9:"Exception";N;s:4:"GUID";s:13:"565ec5cf7f973";s:4:"Name";s:14:"set_session_id";s:4:"Docs";s:14:"Set Session Id";s:8:"Settings";N;}i:1;O:13:"PhpWsdlMethod":9:{s:5:"Param";a:0:{}s:6:"Return";O:12:"PhpWsdlParam":5:{s:4:"Type";s:23:"GetCustomerListResponse";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7f9c0";s:4:"Name";s:6:"return";s:8:"Settings";N;}s:8:"IsGlobal";b:0;s:5:"Class";N;s:9:"Exception";N;s:4:"GUID";s:13:"565ec5cf7f9de";s:4:"Name";s:17:"get_customer_list";s:4:"Docs";s:22:"Get Customer Info List";s:8:"Settings";N;}i:2;O:13:"PhpWsdlMethod":9:{s:5:"Param";a:1:{i:0;O:12:"PhpWsdlParam":5:{s:4:"Type";s:22:"GetCustomerInfoRequest";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7fa27";s:4:"Name";s:22:"getCustomerInfoRequest";s:8:"Settings";N;}}s:6:"Return";O:12:"PhpWsdlParam":5:{s:4:"Type";s:23:"GetCustomerInfoResponse";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7fa45";s:4:"Name";s:6:"return";s:8:"Settings";N;}s:8:"IsGlobal";b:0;s:5:"Class";N;s:9:"Exception";N;s:4:"GUID";s:13:"565ec5cf7fa63";s:4:"Name";s:17:"get_customer_info";s:4:"Docs";s:17:"Get Customer Info";s:8:"Settings";N;}i:3;O:13:"PhpWsdlMethod":9:{s:5:"Param";a:1:{i:0;O:12:"PhpWsdlParam":5:{s:4:"Type";s:18:"AddCustomerRequest";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7fab2";s:4:"Name";s:18:"addCustomerRequest";s:8:"Settings";N;}}s:6:"Return";O:12:"PhpWsdlParam":5:{s:4:"Type";s:19:"AddCustomerResponse";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7fad0";s:4:"Name";s:6:"return";s:8:"Settings";N;}s:8:"IsGlobal";b:0;s:5:"Class";N;s:9:"Exception";N;s:4:"GUID";s:13:"565ec5cf7faed";s:4:"Name";s:12:"add_customer";s:4:"Docs";s:12:"Add Customer";s:8:"Settings";N;}i:4;O:13:"PhpWsdlMethod":9:{s:5:"Param";a:1:{i:0;O:12:"PhpWsdlParam":5:{s:4:"Type";s:21:"DeleteCustomerRequest";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7fb35";s:4:"Name";s:21:"deleteCustomerRequest";s:8:"Settings";N;}}s:6:"Return";O:12:"PhpWsdlParam":5:{s:4:"Type";s:22:"DeleteCustomerResponse";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf7fb52";s:4:"Name";s:6:"return";s:8:"Settings";N;}s:8:"IsGlobal";b:0;s:5:"Class";N;s:9:"Exception";N;s:4:"GUID";s:13:"565ec5cf7fb6e";s:4:"Name";s:15:"delete_customer";s:4:"Docs";s:15:"Delete Customer";s:8:"Settings";N;}}s:5:"types";a:9:{i:0;O:14:"PhpWsdlComplex":9:{s:4:"Type";N;s:7:"Inherit";N;s:8:"Elements";a:10:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:3:"int";s:4:"Docs";s:15:"The Customer ID";s:4:"GUID";s:13:"565ec5cf7fc21";s:4:"Name";s:10:"i_customer";s:8:"Settings";N;}i:1;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:6:"string";s:4:"Docs";s:18:"The Customer email";s:4:"GUID";s:13:"565ec5cf7fc53";s:4:"Name";s:5:"email";s:8:"Settings";N;}i:2;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:6:"string";s:4:"Docs";s:18:"The Customer email";s:4:"GUID";s:13:"565ec5cf7fc76";s:4:"Name";s:8:"password";s:8:"Settings";N;}i:3;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:5:"float";s:4:"Docs";s:14:"A User Balance";s:4:"GUID";s:13:"565ec5cf7fc96";s:4:"Name";s:7:"balance";s:8:"Settings";N;}i:4;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:3:"int";s:4:"Docs";s:51:"The Customer billing model(0 – debit, 1 - credit)";s:4:"GUID";s:13:"565ec5cf7fcb5";s:4:"Name";s:13:"billing_model";s:8:"Settings";N;}i:5;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:7:"boolean";s:4:"Docs";s:68:"The Customer state: 0 – Customer blocked, 1 – Customer unblocked";s:4:"GUID";s:13:"565ec5cf7fcd5";s:4:"Name";s:7:"blocked";s:8:"Settings";N;}i:6;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:7:"boolean";s:4:"Docs";s:46:"The Customer state: 0 - not active, 1 - active";s:4:"GUID";s:13:"565ec5cf7fcf4";s:4:"Name";s:6:"active";s:8:"Settings";N;}i:7;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:4:"date";s:4:"Docs";s:34:"Date when the customer was created";s:4:"GUID";s:13:"565ec5cf7fd13";s:4:"Name";s:10:"issue_date";s:8:"Settings";N;}i:8;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:4:"date";s:4:"Docs";s:42:"Date when the customer was first logged in";s:4:"GUID";s:13:"565ec5cf7fd33";s:4:"Name";s:11:"first_usage";s:8:"Settings";N;}i:9;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:4:"date";s:4:"Docs";s:41:"Date when the customer was last logged in";s:4:"GUID";s:13:"565ec5cf7fd59";s:4:"Name";s:10:"last_usage";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf7fda2";s:4:"Name";s:12:"CustomerInfo";s:4:"Docs";s:18:"Class CustomerInfo";s:8:"Settings";N;}i:1;O:14:"PhpWsdlComplex":9:{s:4:"Type";s:12:"CustomerInfo";s:7:"Inherit";N;s:8:"Elements";a:0:{}s:7:"IsArray";b:1;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf8001b";s:4:"Name";s:17:"CustomerInfoArray";s:4:"Docs";s:23:"Class CustomerInfoArray";s:8:"Settings";N;}i:2;O:14:"PhpWsdlComplex":9:{s:4:"Type";N;s:7:"Inherit";N;s:8:"Elements";a:1:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:17:"CustomerInfoArray";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf80064";s:4:"Name";s:19:"customer_info_array";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf8009d";s:4:"Name";s:23:"GetCustomerListResponse";s:4:"Docs";s:29:"Class GetCustomerListResponse";s:8:"Settings";N;}i:3;O:14:"PhpWsdlComplex":9:{s:4:"Type";N;s:7:"Inherit";N;s:8:"Elements";a:1:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:3:"int";s:4:"Docs";s:15:"The Customer ID";s:4:"GUID";s:13:"565ec5cf8011c";s:4:"Name";s:10:"i_customer";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf8015d";s:4:"Name";s:22:"GetCustomerInfoRequest";s:4:"Docs";s:28:"Class GetCustomerInfoRequest";s:8:"Settings";N;}i:4;O:14:"PhpWsdlComplex":9:{s:4:"Type";N;s:7:"Inherit";N;s:8:"Elements";a:1:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:12:"CustomerInfo";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf801a5";s:4:"Name";s:13:"customer_info";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf801e0";s:4:"Name";s:23:"GetCustomerInfoResponse";s:4:"Docs";s:29:"Class GetCustomerInfoResponse";s:8:"Settings";N;}i:5;O:14:"PhpWsdlComplex":9:{s:4:"Type";N;s:7:"Inherit";N;s:8:"Elements";a:1:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:1;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:12:"CustomerInfo";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf80258";s:4:"Name";s:13:"customer_info";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf80292";s:4:"Name";s:18:"AddCustomerRequest";s:4:"Docs";s:24:"Class AddCustomerRequest";s:8:"Settings";N;}i:6;O:14:"PhpWsdlComplex":9:{s:4:"Type";N;s:7:"Inherit";N;s:8:"Elements";a:1:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:3:"int";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf802d7";s:4:"Name";s:10:"i_customer";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf80313";s:4:"Name";s:19:"AddCustomerResponse";s:4:"Docs";s:25:"Class AddCustomerResponse";s:8:"Settings";N;}i:7;O:14:"PhpWsdlComplex":9:{s:4:"Type";N;s:7:"Inherit";N;s:8:"Elements";a:1:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:3:"int";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf8038c";s:4:"Name";s:10:"i_customer";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf803c8";s:4:"Name";s:21:"DeleteCustomerRequest";s:4:"Docs";s:27:"Class DeleteCustomerRequest";s:8:"Settings";N;}i:8;O:14:"PhpWsdlComplex":9:{s:4:"Type";N;s:7:"Inherit";N;s:8:"Elements";a:1:{i:0;O:14:"PhpWsdlElement":8:{s:8:"NillAble";b:0;s:9:"MinOccurs";i:1;s:9:"MaxOccurs";i:1;s:4:"Type";s:7:"boolean";s:4:"Docs";N;s:4:"GUID";s:13:"565ec5cf8040e";s:4:"Name";s:6:"result";s:8:"Settings";N;}}s:7:"IsArray";b:0;s:20:"EnablePhpConstructor";b:0;s:4:"GUID";s:13:"565ec5cf80448";s:4:"Name";s:22:"DeleteCustomerResponse";s:4:"Docs";s:28:"Class DeleteCustomerResponse";s:8:"Settings";N;}}s:5:"files";a:2:{i:0;s:12:"Customer.php";i:1;s:16:"CustomerInfo.php";}s:4:"name";s:8:"Customer";s:4:"docs";N;s:4:"html";s:9860:"<html>
+<head>
+<title>Customer interface description</title>
+<style type="text/css" media="all">
+body{font-family:Calibri,Arial;background-color:#fefefe;}
+.pre{font-family:Courier;}
+.normal{font-family:Calibri,Arial;}
+.bold{font-weight:bold;}
+h1,h2,h3{font-family:Verdana,Times;}
+h1{border-bottom:1px solid gray;}
+h2{border-bottom:1px solid silver;}
+h3{border-bottom:1px dashed silver;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.blue{color:#3400FF;}
+.lightBlue{color:#5491AF;}
+</style>
+<style type="text/css" media="print">
+.noprint{display:none;}
+</style>
+</head>
+<body>
+<h1>Customer SOAP WebService interface description</h1>
+<p>Endpoint URI: <span class="pre">http://localhost/soap/CustomerSoap.php</span></p>
+<p>WSDL URI: <span class="pre"><a href="http://localhost/soap/CustomerSoap.php?WSDL&readable">http://localhost/soap/CustomerSoap.php?WSDL</a></span></p>
+<p>PHP SOAP client download URI: <span class="pre"><a href="http://localhost/soap/CustomerSoap.php?PHPSOAPCLIENT">http://localhost/soap/CustomerSoap.php?PHPSOAPCLIENT</a></span></p>
+<div class="noprint">
+<h2>Index</h2>
+<p>Exported types:</p>
+<ul>
+<li><a href="#AddCustomerRequest"><span class="pre">AddCustomerRequest</span></a></li>
+<li><a href="#AddCustomerResponse"><span class="pre">AddCustomerResponse</span></a></li>
+<li><a href="#CustomerInfo"><span class="pre">CustomerInfo</span></a></li>
+<li><a href="#CustomerInfoArray"><span class="pre">CustomerInfoArray</span></a></li>
+<li><a href="#DeleteCustomerRequest"><span class="pre">DeleteCustomerRequest</span></a></li>
+<li><a href="#DeleteCustomerResponse"><span class="pre">DeleteCustomerResponse</span></a></li>
+<li><a href="#GetCustomerInfoRequest"><span class="pre">GetCustomerInfoRequest</span></a></li>
+<li><a href="#GetCustomerInfoResponse"><span class="pre">GetCustomerInfoResponse</span></a></li>
+<li><a href="#GetCustomerListResponse"><span class="pre">GetCustomerListResponse</span></a></li>
+</ul>
+<p>Public methods:</p>
+<ul>
+<li><a href="#add_customer"><span class="pre">add_customer</span></a></li>
+<li><a href="#delete_customer"><span class="pre">delete_customer</span></a></li>
+<li><a href="#get_customer_info"><span class="pre">get_customer_info</span></a></li>
+<li><a href="#get_customer_list"><span class="pre">get_customer_list</span></a></li>
+<li><a href="#set_session_id"><span class="pre">set_session_id</span></a></li>
+</ul>
+</div>
+<h2>Exported types</h2>
+<h3>AddCustomerRequest</h3>
+<a name="AddCustomerRequest"></a>
+<p>Class AddCustomerRequest</p>
+<ul class="pre">
+<li><a href="#CustomerInfo"><span class="lightBlue">CustomerInfo</span></a> <span class="bold">customer_info</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)</li>
+</ul>
+<h3>AddCustomerResponse</h3>
+<a name="AddCustomerResponse"></a>
+<p>Class AddCustomerResponse</p>
+<ul class="pre">
+<li><span class="blue">int</span> <span class="bold">i_customer</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)</li>
+</ul>
+<h3>CustomerInfo</h3>
+<a name="CustomerInfo"></a>
+<p>Class CustomerInfo</p>
+<ul class="pre">
+<li><span class="blue">int</span> <span class="bold">i_customer</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">The Customer ID</span></li>
+<li><span class="blue">string</span> <span class="bold">email</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">The Customer email</span></li>
+<li><span class="blue">string</span> <span class="bold">password</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">The Customer email</span></li>
+<li><span class="blue">float</span> <span class="bold">balance</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">A User Balance</span></li>
+<li><span class="blue">int</span> <span class="bold">billing_model</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">The Customer billing model(0 &ndash; debit, 1 - credit)</span></li>
+<li><span class="blue">boolean</span> <span class="bold">blocked</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">The Customer state: 0 &ndash; Customer blocked, 1 &ndash; Customer unblocked</span></li>
+<li><span class="blue">boolean</span> <span class="bold">active</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">The Customer state: 0 - not active, 1 - active</span></li>
+<li><span class="blue">date</span> <span class="bold">issue_date</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">Date when the customer was created</span></li>
+<li><span class="blue">date</span> <span class="bold">first_usage</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">Date when the customer was first logged in</span></li>
+<li><span class="blue">date</span> <span class="bold">last_usage</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">Date when the customer was last logged in</span></li>
+</ul>
+<h3>CustomerInfoArray</h3>
+<a name="CustomerInfoArray"></a>
+<p>This is an array type of <span class="pre"><a href="#CustomerInfo"><span class="lightBlue">CustomerInfo</span></a></span>.</p>
+<p>Class CustomerInfoArray</p>
+<h3>DeleteCustomerRequest</h3>
+<a name="DeleteCustomerRequest"></a>
+<p>Class DeleteCustomerRequest</p>
+<ul class="pre">
+<li><span class="blue">int</span> <span class="bold">i_customer</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)</li>
+</ul>
+<h3>DeleteCustomerResponse</h3>
+<a name="DeleteCustomerResponse"></a>
+<p>Class DeleteCustomerResponse</p>
+<ul class="pre">
+<li><span class="blue">boolean</span> <span class="bold">result</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)</li>
+</ul>
+<h3>GetCustomerInfoRequest</h3>
+<a name="GetCustomerInfoRequest"></a>
+<p>Class GetCustomerInfoRequest</p>
+<ul class="pre">
+<li><span class="blue">int</span> <span class="bold">i_customer</span> (nillable = <span class="blue">false</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)<br><span class="normal">The Customer ID</span></li>
+</ul>
+<h3>GetCustomerInfoResponse</h3>
+<a name="GetCustomerInfoResponse"></a>
+<p>Class GetCustomerInfoResponse</p>
+<ul class="pre">
+<li><a href="#CustomerInfo"><span class="lightBlue">CustomerInfo</span></a> <span class="bold">customer_info</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)</li>
+</ul>
+<h3>GetCustomerListResponse</h3>
+<a name="GetCustomerListResponse"></a>
+<p>Class GetCustomerListResponse</p>
+<ul class="pre">
+<li><a href="#CustomerInfoArray"><span class="lightBlue">CustomerInfoArray</span></a> <span class="bold">customer_info_array</span> (nillable = <span class="blue">true</span>, minoccurs = <span class="blue">1</span>, maxoccurs = <span class="blue">1</span>)</li>
+</ul>
+<h2>Public methods</h2>
+<h3>add_customer</h3>
+<a name="add_customer"></a>
+<p class="pre"><a href="#AddCustomerResponse"><span class="lightBlue">AddCustomerResponse</span></a> <span class="bold">add_customer</span> (
+<a href="#AddCustomerRequest"><span class="lightBlue">AddCustomerRequest</span></a> <span class="bold">addCustomerRequest</span>
+)</p>
+<p>Add Customer</p>
+<h3>delete_customer</h3>
+<a name="delete_customer"></a>
+<p class="pre"><a href="#DeleteCustomerResponse"><span class="lightBlue">DeleteCustomerResponse</span></a> <span class="bold">delete_customer</span> (
+<a href="#DeleteCustomerRequest"><span class="lightBlue">DeleteCustomerRequest</span></a> <span class="bold">deleteCustomerRequest</span>
+)</p>
+<p>Delete Customer</p>
+<h3>get_customer_info</h3>
+<a name="get_customer_info"></a>
+<p class="pre"><a href="#GetCustomerInfoResponse"><span class="lightBlue">GetCustomerInfoResponse</span></a> <span class="bold">get_customer_info</span> (
+<a href="#GetCustomerInfoRequest"><span class="lightBlue">GetCustomerInfoRequest</span></a> <span class="bold">getCustomerInfoRequest</span>
+)</p>
+<p>Get Customer Info</p>
+<h3>get_customer_list</h3>
+<a name="get_customer_list"></a>
+<p class="pre"><a href="#GetCustomerListResponse"><span class="lightBlue">GetCustomerListResponse</span></a> <span class="bold">get_customer_list</span> (
+)</p>
+<p>Get Customer Info List</p>
+<h3>set_session_id</h3>
+<a name="set_session_id"></a>
+<p class="pre"><span class="blue">boolean</span> <span class="bold">set_session_id</span> (
+<span class="blue">string</span> <span class="bold">session_id</span>
+)</p>
+<p>Set Session Id</p>
+<hr>
+<p><small>Powered by <a href="http://code.google.com/p/php-wsdl-creator/">PhpWsdl</a><span class="noprint"> - PDF download: <a href="http://online.htmltopdf.de/?plain=1&filename=Customer-webservices.pdf&print=1">Download this page as PDF</a></span></small></p>
+</body>
+</html>";s:3:"php";N;s:7:"wsdluri";N;s:6:"phpuri";N;s:6:"docuri";N;s:7:"handler";N;}
