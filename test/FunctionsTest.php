@@ -1,5 +1,5 @@
 <?php 
-	require_once 'Functions.php';
+	require_once '../Functions.php';
 	
 	Functions::set_session_id('746667cbd18b83087bb485c6b5816d80');
 	$getCustomerVcamLimitRequest = new GetCustomerVcamLimitRequest();
