@@ -145,6 +145,9 @@ class Functions
 
 		return $getCustomerVcamLimitResponse;
 	}
+	static function get_castomer_vcam ($args){
+		
+	}
 	static function get_customer_vcam_list($args)
 	{
 		$i_customer = null;
@@ -413,5 +416,31 @@ class Functions
 		$action = "Added: '$VENDOR_NAME':'$VCAM_NAME' with the name of the camera '$CUSTOMER_VCAM_NAME'.";
 		self::customerAction($I_CUSTOMER, $action);
 		return $i_customer_vcam;
+	}
+	/**
+	 * Deliete  Customer Video Camera
+	 * @param $args DeleteCustomerVcamRequest
+	 * @return DeleteCustomerVcamResponse
+	 * @throws Exception
+	 */
+	static function delete_customer_vcam ($args){
+		/**  
+		 * @var int $i_customer_vcam 
+		 */
+		$i_customer_vcam = 0;
+		/** 
+		 * @var int $i_reseller 
+		 */
+		$i_reseller = 0;
+		
+		/*** Processing arguments ***/
+		$argNames = array('i_customer_vcam', 'i_reseller');
+		foreach ($argNames as $name) {
+			if (empty($args->$name)) {
+				throw new Exception("add_customer_vcam::Argument '$name' is empty");
+			}
+			$$name = $args->$name;
+		}
+		
 	}
 }

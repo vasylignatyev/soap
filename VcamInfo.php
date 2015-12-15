@@ -154,3 +154,21 @@ class AddCustomerVcamResponse  {
     /** @var int */
     public $i_customer_vcam;
 }
+/**
+ * Class DeleteCustomerVcamRequest
+ * @pw_element int $i_customer_vcam
+ * @pw_complex DeleteCustomerVcamRequest
+ */
+class DeleteCustomerVcamRequest {
+	/** @var int */
+	public $i_customer_vcam;
+}
+/**
+ * Class DeleteCustomerVcamResponse
+ * @pw_element VcamInfo $vcam_info
+ * @pw_complex DeleteCustomerVcamResponse
+ */
+class DeleteCustomerVcamResponse {
+	/** @var VcamInfo */
+	public $vcam_info;
+}
